@@ -1,0 +1,10 @@
+package com.koleman.chess.model;
+
+/**
+ * Author Koleman Nix
+ * Created On 7/10/12 at 12:05 PM
+ */
+public enum MoveType {
+    ORDINARY, WHITE_SHORT_CASTLE, WHITE_LONG_CASTLE, BLACK_SHORT_CASTLE, BLACK_LONG_CASTLE,
+    EN_PASSANT, PROMOTION_QUEEN, PROMOTION_ROOK, PROMOTION_BISHOP, PROMOTION_KNIGHT;
+}
